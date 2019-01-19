@@ -13,3 +13,10 @@ To run
 $ mvn spring-boot:run
     
 ```
+
+### Docker Image
+
+```bash
+$ docker run -t -i joelgtsantos/cms-triton:latest
+
+```
