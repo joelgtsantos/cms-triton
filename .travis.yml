@@ -20,6 +20,7 @@ script:
 - echo docker --version
 - mvn package
 - mvn docker:build -e
+- docker ps -a
 
 after_success:
 - docker login -u $DOCKER_USER -p $DOCKER_PASS
