@@ -11,7 +11,7 @@ env:
 language: java
 
 jdk:
-  - oraclejdk9
+  - openjdk8 
 
 install: 
   travis_wait mvn install
